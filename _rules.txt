@@ -1,0 +1,9 @@
+```connect
+<script>
+    const reactDevtoolsConfig = ('${whistle.connect-react-devtools}' || 'localhost:8097' ).split(':')
+    ReactDevToolsBackend.connectToDevTools({port: +reactDevtoolsConfig[1], host: reactDevtoolsConfig[0], useHttps: false});
+</script>
+```
+
+* htmlPrepend://assets/react-devtools.html
+* htmlPrepend://`{connect}`
