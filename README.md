@@ -22,10 +22,10 @@ npm install -g whistle.connect-react-devtools
 3. add rule in whistle
 ```
 # default connected to localhost:8097
-pattern connect-react-devtools://
+pattern whistle.connect-react-devtools://
 
 # customize host and port
-pattern connect-react-devtools://ip:port
+pattern whistle.connect-react-devtools://ip:port
 ```
 
 4. start react-devtools
