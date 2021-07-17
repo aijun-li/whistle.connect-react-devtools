@@ -1,6 +1,10 @@
 {
   "name": "whistle.connect-react-devtools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "connect to react devtools",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aijun-li/whistle.connect-react-devtools"
+  }
 }
